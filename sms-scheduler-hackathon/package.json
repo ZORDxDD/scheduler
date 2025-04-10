@@ -1,0 +1,20 @@
+{
+  "name": "sms-scheduler-hackathon",
+  "version": "1.0.0",
+  "description": "SMS Scheduler with NodeJS, Express, Cron, and Twilio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "twilio": "^4.23.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
